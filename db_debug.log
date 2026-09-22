@@ -1,0 +1,10 @@
+--- DB STATE CHECK ---
+--- Users ---
+User: Nandhini  | ID: 6981c4b1f21ca9af48a9b3a0 | Email: nandhininambi85@gmail.com
+
+--- Reservations ---
+Res ID: 6983a3156f022c95914fe2a1 | User ID: 6981c4b1f21ca9af48a9b3a0 (<class 'bson.objectid.ObjectId'>) | Book ID: 697b0c3e7233ccd5e3b2e110 | Status: ACTIVE
+Total reservations found: 1
+
+--- Sync Logic Test ---
+User Nandhini  (6981c4b1f21ca9af48a9b3a0): Found 1 ACTIVE reservations via find()
