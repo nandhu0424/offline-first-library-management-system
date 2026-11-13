@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 
 class ApiService {
   static String get baseUrl {
-    if (kIsWeb) return 'http://localhost:5001';
+    if (kIsWeb) return 'https://library-backend-api-bi2l.onrender.com';
 
     // IMPORTANT: Change this to your computer's local IP for physical devices
     // Example: static const String computerIp = '192.168.1.5';
