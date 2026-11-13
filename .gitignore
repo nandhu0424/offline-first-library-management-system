@@ -1,0 +1,130 @@
+# ============================================================
+# ROOT-LEVEL JUNK / DEBUG FILES
+# ============================================================
+check_db.py
+debug_sync.py
+debug_sync_output.txt
+db_debug.log
+db_state.txt
+ip.txt
+net.txt
+Last_walkt.md
+
+# ============================================================
+# PYTHON — BACKEND
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Environment / secrets — NEVER commit real .env
+.env
+# Keep the example file so others know what vars are needed
+!.env.example
+
+# Logs
+*.log
+backend_debug.log
+
+# Database dumps & debug output
+backend/db_dump.txt
+backend/pip_list.txt
+backend/test_output.txt
+
+# Uploaded images (user-generated content, not source code)
+backend/books_img/
+
+# One-off scripts that were only used for debugging
+backend/scripts/
+
+# Test files
+backend/test_api.py
+backend/migrate_fines.py
+
+# ============================================================
+# NODE / REACT — ADMIN PORTAL
+# ============================================================
+node_modules/
+admin-portal/node_modules/
+
+# Build output
+admin-portal/dist/
+admin-portal/.vite/
+
+# Environment
+admin-portal/.env
+admin-portal/.env.local
+admin-portal/.env.production
+!admin-portal/.env.example
+
+# Cache
+.eslintcache
+
+# ============================================================
+# FLUTTER — STUDENT APP
+# ============================================================
+# Build outputs
+Student-app/build/
+Student-app/.dart_tool/
+Student-app/.flutter-plugins
+Student-app/.flutter-plugins-dependencies
+Student-app/.packages
+Student-app/pubspec.lock
+
+# Generated files
+Student-app/**/*.g.dart
+Student-app/**/*.freezed.dart
+
+# Flutter IDE
+Student-app/devtools_options.yaml
+
+# Debug / analysis output
+Student-app/analysis_output.txt
+Student-app/final_analysis.txt
+
+# Android generated
+Student-app/android/build/
+Student-app/android/.gradle/
+Student-app/android/captures/
+Student-app/android/local.properties
+Student-app/android/gradle_ver.txt
+Student-app/android/app/.cxx/
+
+# iOS generated
+Student-app/ios/Pods/
+Student-app/ios/.symlinks/
+Student-app/ios/Flutter/flutter_export_environment.sh
+Student-app/ios/Flutter/Generated.xcconfig
+Student-app/ios/Runner/GeneratedPluginRegistrant.h
+Student-app/ios/Runner/GeneratedPluginRegistrant.m
+
+# ============================================================
+# IDE / EDITOR
+# ============================================================
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# ============================================================
+# OS FILES
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
